@@ -1,0 +1,24 @@
+body{
+    background-image: url('bg.jpg');
+}
+.heading_div{
+    width: 100%;
+}
+.copy_right_footer{
+    bottom: 0;
+    background-color: gray;
+    line-height: 20px;
+    position: fixed;
+    width: 100%;
+}
+canvas{
+    border: 1px solid white;
+    border-radius: 20px;
+    animation-name: canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas{
+    from{box-shadow: 5px 5px 5px red;}
+    to{box-shadow: 4px 4px 4px blue;}
+}
